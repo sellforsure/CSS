@@ -7,7 +7,7 @@
 }
 
 h1 {
-  color: blue;
+  background: blue;
 }
 
 .green {
@@ -18,11 +18,11 @@ h1 {
   color: blue;
 }
 
-section div {
-  color: green;
+.box div {
+  background: green;
 }
-section p {
-  color: red;
+.box p {
+  background: red;
 }
 
 .brown {
@@ -57,7 +57,7 @@ p.susid ~ p {
 }
 
 .third-task ul:last-child > li:first-child {
-  color: yellow;
+  background: yellow;
 }
 
 .four-task li:last-child {
@@ -122,7 +122,7 @@ p.susid ~ p {
   color: red;
 }
 
-.lesson-three-task-ten p::first-line {
+.lesson-three-task-ten::first-line {
   background: yellow;
 }
 
